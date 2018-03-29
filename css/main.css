@@ -1,3 +1,7 @@
+html {
+  font-family: "Merriweather", serif;
+  }
+
 .red {
   background-color: #f2bcbc;
   color: #991919;
@@ -13,7 +17,7 @@
 }
 
 .grey {
-  background-color: #ccc;
+  background-color: #f2f2f2;
   color: #333;
   border: solid 1px #666;
   border-radius: 8px;
@@ -24,4 +28,14 @@
   color: #38448e;
   border: solid 1px #1d38da;
   border-radius: 8px;
+}
+
+td {
+  height: 10em;
+}
+
+th,
+td,
+table {
+  border: 1px solid #ccc;
 }
